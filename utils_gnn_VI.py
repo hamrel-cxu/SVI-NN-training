@@ -225,8 +225,6 @@ def get_simulation_data(model_get_data, Nnow, edge_index, n, C, train=True, torc
 
 
 # Train the network
-# # Update all layers with certain VI heuristic
-
 
 def train_revised_all_layer(train_loader, model_to_train=None, output_dim=1, model_to_feature_ls=[],  more_layers=False, loss_type='MSE', Adam=False):
     # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
