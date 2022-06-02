@@ -21,6 +21,16 @@
 ## Full results
 - Please see [real_data_OGB.ipynb](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/real_data_OGB.ipynb) for applying our `SVI` technique on one of the large-scale graph prediction task from the [Open Graph Benchmark](https://ogb.stanford.edu/). 
 - Codes on generating other results will be released upon publication. The current paper is under review by NeurIPS 2022.
+- The illustration below demonstrates the performance of `SVI` (trained under SGD or Adam) against SGD or Adam on the one of the representative dataset on OGB; results are reproducible upon executing the Jupyter notebook above. In particular, the top figure shows `SVI` always improves the initial training phases by converging faster to desired accuracies. The bottom figures shows that after training until convergence, `SVI` yields competitive performance as gradient-based methods.
+
+Results during initial training stages         |
+:-------------------------:
+![](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/OGB_initial_epochs.png)
+**Results over all epochs**          |
+![](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/OGB_all_epochs.png)
+
+
+
 <!-- - **Required Dependency:** 
   - Basic modules: `numpy, pandas, sklearn, scipy, matplotlib, seaborn, etc.`.
   - Additional modules: `torch` for training fully-connected networks, `torch_geometric` for building graph neural network models, and `networkx` for visualizing graph structures.
