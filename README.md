@@ -13,20 +13,14 @@
       archivePrefix={arXiv},
       primaryClass={stat.ML}
 }
-
-
-
 ```
-## Table of Contents
-* [Demo](#demo)
-* [Detailed Documentation](#detailed-documentation)
+<!-- ## Table of Contents
+* [Full results](#full-results)
+ -->
 
-
-## Demo
-- Please see this [Jupyter notebook](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/real_data_OGB.ipynb) for applying our `SVI` technique on one of the large-scale graph prediction task from the [Open Graph Benchmark](https://ogb.stanford.edu/). 
-
-## Detailed Documentation
-- Note, detailed documentation and complete code will be released upon publication. The current paper is under review by NeurIPS 2022
+## Full results
+- Please see [real_data_OGB.ipynb](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/real_data_OGB.ipynb) for applying our `SVI` technique on one of the large-scale graph prediction task from the [Open Graph Benchmark](https://ogb.stanford.edu/). 
+- Codes on generating other results will be released upon publication. The current paper is under review by NeurIPS 2022.
 <!-- - **Required Dependency:** 
   - Basic modules: `numpy, pandas, sklearn, scipy, matplotlib, seaborn, etc.`.
   - Additional modules: `torch` for training fully-connected networks, `torch_geometric` for building graph neural network models, and `networkx` for visualizing graph structures.
