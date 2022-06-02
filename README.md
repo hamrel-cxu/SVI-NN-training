@@ -23,7 +23,7 @@
 
 
 ## Demo
-- Please see this [Jupyter notebook](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/real_data_OGB.ipynb) for applying our `SVI` technique on one of the large-scale graph prediction task from the [Open Graph Benchmark](https://ogb.stanford.edu/). 
+- Please see [real_data_OGB.ipynb](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/real_data_OGB.ipynb) for applying our `SVI` technique on one of the large-scale graph prediction task from the [Open Graph Benchmark](https://ogb.stanford.edu/). 
 
 ## Detailed Documentation
 - Note, detailed documentation and complete code will be released upon publication. The current paper is under review by NeurIPS 2022
