@@ -1,5 +1,5 @@
 # SVI NN training
-> Implementation and experiments based on the paper "[Training neural networks using monotone variational inequality](https://arxiv.org/abs/2202.08876)".
+> Implementation and experiments based on the paper "[Training neural networks using monotone variational inequality](https://arxiv.org/abs/2202.08876)". The current paper is under review.
 > 
 > Please direct all implementation-related inquiries to Chen Xu @ cxu310@gatech.edu.
 
