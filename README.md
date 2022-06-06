@@ -5,14 +5,17 @@
 
 > Citation:
 ```
-@misc{xu2022training,
-      title={An alternative approach to train neural networks using monotone variational inequality}, 
-      author={Chen Xu and Xiuyuan Cheng and Yao Xie},
-      year={2022},
-      eprint={2202.08876},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
+@misc{https://doi.org/10.48550/arxiv.2202.08876,
+  doi = {10.48550/ARXIV.2202.08876},
+  url = {https://arxiv.org/abs/2202.08876},
+  author = {Xu, Chen and Cheng, Xiuyuan and Xie, Yao},
+  keywords = {Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {An alternative approach to train neural networks using monotone variational inequality},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
 }
+
 ```
 <!-- ## Table of Contents
 * [Full results](#full-results)
