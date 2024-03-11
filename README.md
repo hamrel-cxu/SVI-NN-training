@@ -1,11 +1,14 @@
 # SVI NN training
-> Implementation and experiments based on the paper [An alternative approach to train neural networks using monotone variational inequality](https://arxiv.org/abs/2202.08876).
-> 
-> Please direct all implementation-related inquiries to cxu310@gatech.edu.
 
+Official implementation for [An alternative approach to train neural networks using monotone variational inequality](https://arxiv.org/abs/2202.08876).
 
+Please direct all implementation-related inquiries to cxu310@gatech.edu.
 
-> Citation:
+The released code compares SVI vs. SGD on the large OGB node classification task
+- Training: [SVI_OGB_128width](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/SVI_OGB_128width.ipynb), [SVI_OGB_256width](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/SVI_OGB_256width.ipynb), [SVI_OGB_512width](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/SVI_OGB_512width.ipynb)
+- Evaluation: [SVI_OGB_results](https://github.com/hamrel-cxu/SVI-NN-training/blob/main/SVI_OGB_results.ipynb)
+
+Citation:
 ```
 @article{xu2022alternative,
   title={An alternative approach to train neural networks using monotone variational inequality},
